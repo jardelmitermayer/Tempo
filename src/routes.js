@@ -7,21 +7,21 @@ import Search from './pages/Search';
 
 const Drawer = createDrawerNavigator();
 
-function Routes(){
-  return(
+function Routes() {
+  return (
     <Drawer.Navigator>
-      <Drawer.Screen 
+      <Drawer.Screen
         name="Home"
         component={Home}
         options={{
-          title:'Minha cidade'
+          title: 'Minha cidade'
         }}
       />
-      <Drawer.Screen 
+      <Drawer.Screen
         name="Search"
         component={Search}
         options={{
-          title:'Procurar'
+          title: 'Procurar'
         }}
       />
     </Drawer.Navigator>
